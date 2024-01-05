@@ -13,6 +13,26 @@ footer,
   background-color: #1F2937;
 }
 
+.one {
+  padding: 0px 96px;
+}
+
+header {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  padding: 8px;
+}
+
+.hero {
+  display: flex;
+  padding: 48px 0px;
+}
+
 .three {
   background-color: #E5E7EB;
 }
@@ -23,10 +43,18 @@ button,
   color: white;
 }
 
+button {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 100px;
+}
+
 .main-text {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+  margin: 0px;
 }
 
 .secondary-text {
@@ -46,7 +74,22 @@ button,
   color: #1F2937;
 }
 
+.hero-text {
+  margin: 0px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero-image {
-  width: 600px;
+  width: 500px;
   height: auto;
+  margin: 0px 16px;
+  flex: 1;
+}
+
+.logo-image {
+  width: auto;
+  height: 30px;
 }
