@@ -17,6 +17,12 @@ footer,
   background-color: #E5E7EB;
 }
 
+button,
+.action-box {
+  background-color: #3882F6;
+  color: white;
+}
+
 .main-text {
   font-size: 48px;
   font-weight: bolder;
