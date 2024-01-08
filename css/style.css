@@ -129,3 +129,36 @@ button {
   margin: 100px 120px;
   width: 750px;
 }
+
+.four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-box {
+  display: flex;
+  background-color: #3b82f6;
+  color: white;
+  margin: 50px;
+  padding: 25px;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+
+.action-text p {
+  margin: 0px; 
+}
+
+footer {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
