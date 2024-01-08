@@ -1,6 +1,6 @@
 img {
-  width: 330px;
-  height: 220px;
+  width: 220px;
+  height: auto;
 }
 
 body {
@@ -66,6 +66,7 @@ button {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  text-align: center;
 }
 
 .quote-text {
@@ -92,4 +93,39 @@ button {
 .logo-image {
   width: auto;
   height: 30px;
+}
+
+.animal-images {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 0px 120px;
+}
+
+.animal-tile {
+  flex: 1 1 auto;
+  text-align: center;
+  width: 220px;
+}
+
+.animal-tile img {
+  border: 4px solid #3882F6;
+  border-radius: 25px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  width: 750px;
+  font-style: italic;
+}
+
+.three p {
+  margin: 100px 120px;
+  width: 750px;
 }
